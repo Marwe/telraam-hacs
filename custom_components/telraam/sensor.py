@@ -36,6 +36,10 @@ class TelraamSensor(CoordinatorEntity, SensorEntity):
         return svalue
 
     @property
+    def state_class(self):
+        return "measurement"
+
+    @property
     def device_info(self):
         """Return information about the device."""
         return DeviceInfo(
