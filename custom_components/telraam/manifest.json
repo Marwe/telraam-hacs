@@ -1,0 +1,10 @@
+{
+  "domain": "telraam",
+  "name": "Telraam Integration",
+  "documentation": "https://www.telraam.net",
+  "version": "0.0.1",
+  "dependencies": [],
+  "codeowners": ["frank@kapernikov.com"],
+  "requirements": ["requests", "aiohttp"],
+  "config_flow": true
+}
