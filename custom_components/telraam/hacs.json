@@ -1,0 +1,9 @@
+{
+  "name": "Telraam",
+  "content_in_root": false,
+  "render_readme": true,
+  "country": ["BE"],
+  "zip_release": false,
+  "domain": "telraam",
+  "category": "integration"
+}
