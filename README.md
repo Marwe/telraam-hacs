@@ -18,7 +18,7 @@ Before you begin, ensure you have a functioning Home Assistant installation and 
 
 This component is compatible with the Home Assistant Community Store (HACS). To install it using HACS, follow these steps:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kervel&repository=telraam-hass-integration&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kervel&repository=telraam-hacs&category=integration)
 
 [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=telraam)
 
