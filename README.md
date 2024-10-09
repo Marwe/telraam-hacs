@@ -38,6 +38,44 @@ After installation, add the Telraam integration via the Home Assistant UI:
 2. Click on the "+ Add Integration" button.
 3. Search for "Telraam" and follow the on-screen instructions to configure the integration with your API key and device ID.
 
+## Adding a widget to your dashboard
+
+An example widget configuration using the HACS apexcharts plugin:
+
+```yaml
+type: custom:apexcharts-card
+header:
+  show: true
+  title: Telraam
+yaxis:
+  - id: first
+  - id: second
+    opposite: true
+series:
+  - entity: sensor.total_motorized
+    yaxis_id: first
+    name: Motorized traffic
+    unit: vh/hr
+    show:
+      in_brush: true
+  - entity: sensor.85th_percentile_speed
+    yaxis_id: second
+    name: V85
+    type: column
+    stroke_width: 7
+    color: "#dddddd"
+    unit: km/hr
+brush:
+  selection_span: 24hr
+graph_span: 5d
+experimental:
+  brush: true
+```
+
+![Screenshot](./screenshots/widget.png)
+
+
+
 ## Support
 
 If you encounter issues or have questions, please file an issue on this GitHub repository.
